@@ -5,9 +5,9 @@ public class Asiento {
 	int precio;
 	int registro;
 	
-	public void cambiarColor(String color) {
+	void cambiarColor(String color) {
 		
-	if (color == "rojo" || color == "rojo" || color == "verde" || color == "amarillo" || color == "blanco" || color == "negro"){
+	if (color == "rojo" || color == "verde" || color == "amarillo" || color == "blanco" || color == "negro"){
 		this.color = color;
 	}
 	}
